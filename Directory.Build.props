@@ -1,0 +1,23 @@
+<Project>
+
+    <PropertyGroup>
+        <!-- NuGet Packaging -->
+        <PackageVersion>1.0.0</PackageVersion>
+        <Authors>Annulus Games</Authors>
+        <Copyright>© Annulus Games</Copyright>
+        <PackageProjectUrl>https://github.com/AnnulusGames/Expect</PackageProjectUrl>
+        <RepositoryUrl>$(PackageProjectUrl)</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIcon>Icon.png</PackageIcon>
+        <PackageTags>test;testing;tdd;assert;expect;</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\..\Icon.png" Pack="true" PackagePath="/" />
+        <None Include="..\..\LICENSE" Pack="true" PackagePath=""/>
+        <None Include="..\..\README.md" Pack="true" PackagePath="README.md"/>
+    </ItemGroup>
+
+</Project>
