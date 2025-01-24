@@ -78,7 +78,7 @@ Expect(() => array.Contains(-1));
 エラーメッセージはそれぞれ以下のようになります。
 
 ```
-Expected: some item equal to -1 and some item equal to 1
+Expected: some item equal to -1
 But was:  < 1, 2, 3, 4, 5 >
 ```
 

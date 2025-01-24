@@ -1,11 +1,11 @@
 # Expect  
  Expression-based Assertion Library for .NET  
 
-[![NuGet](https://img.shields.io/nuget/v/Expect.svg)](https://www.nuget.org/packages/Expect)  
-[![Releases](https://img.shields.io/github/release/AnnulusGames/Expect.svg)](https://github.com/AnnulusGames/Expect/releases)  
-[![GitHub license](https://img.shields.io/github/license/AnnulusGames/Expect.svg)](./LICENSE)  
+[![NuGet](https://img.shields.io/nuget/v/Expect.svg)](https://www.nuget.org/packages/Expect)
+[![Releases](https://img.shields.io/github/release/AnnulusGames/Expect.svg)](https://github.com/AnnulusGames/Expect/releases)
+[![GitHub license](https://img.shields.io/github/license/AnnulusGames/Expect.svg)](./LICENSE)
 
-[English](./README.md) | 日本語  
+English | [日本語](./README_JA.md) 
 
 **Expect** is an assertion library for .NET.  
 
@@ -78,7 +78,7 @@ Expect(() => array.Contains(-1));
 The error messages will be as follows:  
 
 ```
-Expected: some item equal to -1 and some item equal to 1
+Expected: some item equal to -1
 But was:  < 1, 2, 3, 4, 5 >
 ```
 
